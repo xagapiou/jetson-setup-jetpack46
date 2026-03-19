@@ -1,0 +1,16 @@
+# Ignore everything
+*
+
+# But do NOT ignore these specific file types
+!*.whl
+!*.egg
+!README.md
+!.gitignore
+!setup_env.sh
+!requirements_jetson_jp46.txt
+
+# Ignore temporary build directories if you compile in this folder
+build/
+dist/
+*.egg-info/
+__pycache__/
